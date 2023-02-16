@@ -1,11 +1,16 @@
 {
-    "name": "sva/print",
-    "type": "library",
-    "authors": [
-        {
-            "name": "Vyacheslav Shevchenko",
-            "email": "webdev2030@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "sva/print",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Vyacheslav Shevchenko",
+      "email": "webdev2030@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Sva\\Print\\": "src/"
+    }
+  },
+  "require": {}
 }
