@@ -12,5 +12,7 @@
       "Sva\\Print\\": "src/"
     }
   },
-  "require": {}
+  "require": {
+    "php": ">=5.3"
+  }
 }
